@@ -7,3 +7,13 @@
     color: blue;
     font-size: 32px;
 }
+
+.number-3 {
+    font-size: 24px;
+}
+
+#n4 {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
