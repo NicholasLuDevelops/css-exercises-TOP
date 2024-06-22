@@ -2,6 +2,10 @@
 you'll learn about it later. */
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
+* {
+  border: solid 1px black;
+}
+
 body {
   margin: 0;
   background: #eee;
@@ -15,24 +19,30 @@ body {
   padding: 8px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
+.left, .right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+/* SEE ABOVE LINE FOR MORE ELEGANT SOLUTION
 .left {
-  margin-left: 16px;
+  margin-left: 16px; Use gap instead
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* border: solid 1px black; */
+  border: solid 1px black;
 }
 
 .right {
-  margin-right: 8px;
+  margin-right: 8px; Use gap instead
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* border: solid 1px black; */
-}
+  border: solid 1px black;
+} */
 
 .profile-image {
   background: rebeccapurple;
@@ -43,7 +53,6 @@ body {
 }
 
 .logo {
-  /* border: solid 1px black; */
   color: rebeccapurple;
   font-size: 32px;
   font-weight: 900;
@@ -66,9 +75,9 @@ a {
 }
 
 ul {
-  /* border: solid 1px black; */
   list-style-type: none;
   display: flex;
   padding: 0;
-  gap: 8px;
+  margin: 0;
+  gap: 16px;
 }
