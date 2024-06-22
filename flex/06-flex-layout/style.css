@@ -30,7 +30,7 @@ button {
   background: #eee;
 
   /* Added */
-  padding: 8px;
+  padding: 8px 16px;
 }
 
 input {
@@ -48,6 +48,7 @@ ul {
 }
 
 a {
+  color: black;
   text-decoration: none;
 }
 
@@ -70,10 +71,5 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 16px;
-}
-
-.buttons {
-  display: flex;
   gap: 16px;
 }
