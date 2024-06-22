@@ -41,13 +41,14 @@ body {
 
 /* Added */
 .button {
+  margin-top: 8px;
   flex-direction: row;
   gap: 4px;
 }
 
 /* Added */
 .header {
-  font-size: 1.5em;
+  font-size: 1.25em;
   font-weight: 900;
 }
 
@@ -64,7 +65,7 @@ body {
   justify-content: center;
 
   /* Added */
-  min-width: 42px;
+  flex-shrink: 0;
 }
 
 .close-button {
