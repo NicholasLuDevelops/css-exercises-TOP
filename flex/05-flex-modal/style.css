@@ -4,6 +4,11 @@ html, body {
   height: 100%;
 }
 
+/* Added */
+/* * {
+  border: solid 1px black;
+} */
+
 body {
   font-family: Roboto, sans-serif;
   margin: 0;
@@ -20,6 +25,30 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  
+  /* Added  */
+  display: flex;
+  padding: 16px;
+  gap: 16px;
+}
+
+/* Added */
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* Added */
+.button {
+  flex-direction: row;
+  gap: 4px;
+}
+
+/* Added */
+.header {
+  font-size: 1.5em;
+  font-weight: 900;
 }
 
 .icon {
@@ -33,6 +62,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  /* Added */
+  min-width: 42px;
 }
 
 .close-button {
@@ -48,6 +80,9 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+
+  /* Added */
+  min-width: 24px;
 }
 
 button {
